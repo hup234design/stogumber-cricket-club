@@ -4,6 +4,11 @@
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/css/filament.css": {
+    "file": "assets/filament-b5a8bde8.css",
+    "src": "resources/css/filament.css",
+    "isEntry": true
+  },
   "resources/js/app.js": {
     "file": "assets/app-fe5e93e3.js",
     "src": "resources/js/app.js",
