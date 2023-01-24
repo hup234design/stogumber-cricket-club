@@ -1607,12 +1607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hup234design/laravel-filament-cms.git",
-                "reference": "343d3d1488d1df26909635517a80efc0009a4c02"
+                "reference": "9bf1b1a3d07c3a1168f4271c2127f5558cfb69ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hup234design/laravel-filament-cms/zipball/343d3d1488d1df26909635517a80efc0009a4c02",
-                "reference": "343d3d1488d1df26909635517a80efc0009a4c02",
+                "url": "https://api.github.com/repos/hup234design/laravel-filament-cms/zipball/9bf1b1a3d07c3a1168f4271c2127f5558cfb69ab",
+                "reference": "9bf1b1a3d07c3a1168f4271c2127f5558cfb69ab",
                 "shasum": ""
             },
             "require": {
@@ -1665,7 +1665,7 @@
                 "issues": "https://github.com/hup234design/laravel-filament-cms/issues",
                 "source": "https://github.com/hup234design/laravel-filament-cms/tree/main"
             },
-            "time": "2023-01-24T20:02:26+00:00"
+            "time": "2023-01-24T20:29:08+00:00"
         },
         {
             "name": "jeffgreco13/filament-breezy",
