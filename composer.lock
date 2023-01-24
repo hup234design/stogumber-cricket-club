@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcc3ac62450ffed408914fd11963a25a",
+    "content-hash": "7555fec711bb24ade16095495d46ee47",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1549,7 +1549,7 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hup234design/laravel-filament-cms.git",
+                "url": "https://github.com/hup234design/laravel-filament-cms.git",
                 "reference": "e1c3eaf166e1e2df76d0dd1ad39f9ac853982a17"
             },
             "dist": {
@@ -1565,6 +1565,7 @@
                 "spatie/eloquent-sortable": "^4.0",
                 "spatie/laravel-package-tools": "^1.9.2"
             },
+            "default-branch": true,
             "type": "project",
             "extra": {
                 "laravel": {
@@ -1578,21 +1579,12 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Hup234design\\FilamentCms\\": "src/",
                     "Database\\Seeders\\": "database/seeders/",
-                    "Database\\Factories\\": "database/factories/"
+                    "Database\\Factories\\": "database/factories/",
+                    "Hup234design\\FilamentCms\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Hup234design\\FilamentCms\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "pint": [
-                    "vendor/bin/pint"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1611,8 +1603,8 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/hup234design/laravel-filament-cms/tree/main",
-                "issues": "https://github.com/hup234design/laravel-filament-cms/issues"
+                "issues": "https://github.com/hup234design/laravel-filament-cms/issues",
+                "source": "https://github.com/hup234design/laravel-filament-cms/tree/main"
             },
             "time": "2023-01-24T15:39:43+00:00"
         },

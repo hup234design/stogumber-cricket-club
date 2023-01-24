@@ -62,11 +62,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://hup234design.co.uk/packagist"
-        }
-    ]
+    "prefer-stable": true
 }
