@@ -1506,12 +1506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hup234design/laravel-filament-cms.git",
-                "reference": "1582502486fc2185b48c1bf56ea9ba40cede7766"
+                "reference": "833cef0596a24408c87f477f3e048cb2802b3c24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hup234design/laravel-filament-cms/zipball/1582502486fc2185b48c1bf56ea9ba40cede7766",
-                "reference": "1582502486fc2185b48c1bf56ea9ba40cede7766",
+                "url": "https://api.github.com/repos/hup234design/laravel-filament-cms/zipball/833cef0596a24408c87f477f3e048cb2802b3c24",
+                "reference": "833cef0596a24408c87f477f3e048cb2802b3c24",
                 "shasum": ""
             },
             "require": {
@@ -1562,7 +1562,7 @@
                 "issues": "https://github.com/hup234design/laravel-filament-cms/issues",
                 "source": "https://github.com/hup234design/laravel-filament-cms/tree/main"
             },
-            "time": "2023-01-24T17:00:17+00:00"
+            "time": "2023-01-24T17:20:35+00:00"
         },
         {
             "name": "laravel/framework",
