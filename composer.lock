@@ -1992,12 +1992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hup234design/laravel-filament-cms.git",
-                "reference": "f9c4bfe3d761dd30dc397d1947e7f6864c188d18"
+                "reference": "e071e6e385dd1de0ba9ac5efcba145beca2c8320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hup234design/laravel-filament-cms/zipball/f9c4bfe3d761dd30dc397d1947e7f6864c188d18",
-                "reference": "f9c4bfe3d761dd30dc397d1947e7f6864c188d18",
+                "url": "https://api.github.com/repos/hup234design/laravel-filament-cms/zipball/e071e6e385dd1de0ba9ac5efcba145beca2c8320",
+                "reference": "e071e6e385dd1de0ba9ac5efcba145beca2c8320",
                 "shasum": ""
             },
             "require": {
@@ -2055,7 +2055,7 @@
                 "issues": "https://github.com/hup234design/laravel-filament-cms/issues",
                 "source": "https://github.com/hup234design/laravel-filament-cms/tree/main"
             },
-            "time": "2023-02-01T14:36:36+00:00"
+            "time": "2023-02-01T15:19:13+00:00"
         },
         {
             "name": "intervention/image",
