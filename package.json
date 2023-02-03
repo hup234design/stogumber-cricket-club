@@ -19,6 +19,7 @@
     },
     "dependencies": {
         "alpinejs": "^3.11.1",
+        "fslightbox": "^3.4.0-2",
         "tippy.js": "^6.3.7"
     }
 }
