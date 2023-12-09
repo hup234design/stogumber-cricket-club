@@ -1,0 +1,30 @@
+<?php
+
+namespace App\View\Components;
+
+use Closure;
+use Hup234design\Cms\Models\Project;
+use Illuminate\Contracts\View\View;
+use Illuminate\View\Component;
+
+class ProjectsLayout extends Component
+{
+    /**
+     * Create a new component instance.
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Get the view / contents that represent the component.
+     */
+    public function render(): View|Closure|string
+    {
+        $all_projects = Project::visible()->select('title','slug');
+        return view('layouts.projects', [
+            'all_projects' => $all_projects
+        ]);
+    }
+}

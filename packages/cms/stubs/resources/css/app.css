@@ -1,0 +1,115 @@
+@tailwind base;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    blockquote {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 34px;
+        margin-right: 34px;
+        border-left-width: thick;
+        padding-left: 5px;
+    }
+}
+
+@tailwind components;
+
+@layer components {
+
+    .container {
+        @apply max-w-7xl mx-auto px-8 lg:px-6;
+    }
+    /*.container .container {*/
+    /*    @apply px-0 !important;*/
+    /*}*/
+
+
+    .desktop-only {
+        @apply hidden md:block;
+    }
+    .mobile-only {
+        @apply md:hidden;
+    }
+
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+
+    /*#content-blocks {*/
+    /*    @apply mt-16;*/
+    /*}*/
+    /*#content-blocks section.block-dark .prose {*/
+    /*    @apply prose-invert;*/
+    /*}*/
+    /*#content-blocks section.block-dark p {*/
+    /*    @apply font-medium;*/
+    /*}*/
+    /*#content-blocks section.block-dark .lead p  {*/
+    /*    @apply text-white;*/
+    /*}*/
+
+
+    /*.content-blocks .content-block-dark p {*/
+    /*    @apply font-semibold;*/
+    /*}*/
+    .content-blocks .content-block-dark .prose {
+        @apply prose-invert;
+    }
+    .content-blocks .content-block-dark .prose p {
+        @apply font-medium;
+    }
+    .content-blocks .content-block-dark .prose .lead  {
+        @apply text-gray-100;
+    }
+
+    /*#content-blocks section {*/
+    /*    @apply py-16;*/
+    /*}*/
+    /*#content-blocks section.has-header {*/
+    /*    @apply pt-16;*/
+    /*}*/
+    /*#content-blocks section.dark {*/
+    /*    @apply bg-red-900;*/
+    /*}*/
+
+    /*#content-blocks section header {*/
+    /*    @apply prose max-w-none text-center mb-12;*/
+    /*}*/
+
+    /*#content-blocks section.dark header {*/
+    /*    @apply prose-invert;*/
+    /*}*/
+
+    /*#content-blocks section header h2 {*/
+    /*    @apply text-xl mt-0 uppercase;*/
+    /*}*/
+
+    /*#content-blocks section header .subtitle {*/
+    /*    @apply font-bold my-0;*/
+    /*}*/
+
+    /*#content-blocks section header .lead {*/
+    /*    @apply mb-0 max-w-3xl mx-auto;*/
+    /*}*/
+
+    /*#content-blocks section header .lead p {*/
+    /*    @apply font-semibold mt-0;*/
+    /*}*/
+    /*#content-blocks section.dark header .lead p {*/
+    /*    @apply text-white;*/
+    /*}*/
+
+    /*#content-blocks section.dark main .prose {*/
+    /*    @apply prose-invert;*/
+    /*}*/
+}
+
+@tailwind utilities;
+
+.btn  {
+    @apply bg-red-900 px-8 py-2 text-white no-underline rounded-lg;
+}
